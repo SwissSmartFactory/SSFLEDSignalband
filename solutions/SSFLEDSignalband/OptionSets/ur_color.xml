@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ur_color" localizedName="Color" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Color" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="315810000">
+      <labels>
+        <label description="Red" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810001">
+      <labels>
+        <label description="Green" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810002">
+      <labels>
+        <label description="Blue" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810003">
+      <labels>
+        <label description="Yellow" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810004">
+      <labels>
+        <label description="Cyan" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810005">
+      <labels>
+        <label description="Magenta" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

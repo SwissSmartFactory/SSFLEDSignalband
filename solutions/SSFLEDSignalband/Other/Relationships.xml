@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ur_controldata" />
+  <EntityRelationship Name="business_unit_ur_ledoff" />
+  <EntityRelationship Name="business_unit_ur_numbersletters" />
+  <EntityRelationship Name="lk_ur_controldata_createdby" />
+  <EntityRelationship Name="lk_ur_controldata_modifiedby" />
+  <EntityRelationship Name="lk_ur_ledoff_createdby" />
+  <EntityRelationship Name="lk_ur_ledoff_modifiedby" />
+  <EntityRelationship Name="lk_ur_numbersletters_createdby" />
+  <EntityRelationship Name="lk_ur_numbersletters_modifiedby" />
+  <EntityRelationship Name="owner_ur_controldata" />
+  <EntityRelationship Name="owner_ur_ledoff" />
+  <EntityRelationship Name="owner_ur_numbersletters" />
+  <EntityRelationship Name="team_ur_controldata" />
+  <EntityRelationship Name="team_ur_ledoff" />
+  <EntityRelationship Name="team_ur_numbersletters" />
+  <EntityRelationship Name="user_ur_controldata" />
+  <EntityRelationship Name="user_ur_ledoff" />
+  <EntityRelationship Name="user_ur_numbersletters" />
+</EntityRelationships>

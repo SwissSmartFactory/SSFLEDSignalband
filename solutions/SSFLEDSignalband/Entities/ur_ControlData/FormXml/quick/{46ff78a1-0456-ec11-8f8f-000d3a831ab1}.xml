@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{46ff78a1-0456-ec11-8f8f-000d3a831ab1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{a7b173dc-6db7-4b4b-a550-416419d39c20}">
+          <labels>
+            <label description="Neue Registerkarte" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{79a3f88b-05a7-4e33-bcb3-aa2878844c28}">
+                  <labels>
+                    <label description="Neuer Abschnitt" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c2ab6617-9882-4f21-8e15-fdb83cf6233d}" locklevel="0" colspan="1" rowspan="1" labelid="{a2ecb8a2-3c4a-4cb3-a2c1-ee9b11a22f23}" showlabel="true">
+                        <labels>
+                          <label description="color" languagecode="1033" />
+                        </labels>
+                        <control id="ur_color" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_color" disabled="false" uniqueid="{0d703398-5ce0-7209-8e66-81296edde959}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b295f7ef-f05e-4524-b3ad-32c4946df559}" locklevel="0" colspan="1" rowspan="1" labelid="{35f18120-643d-45c7-a30c-388a6c12fe25}">
+                        <labels>
+                          <label description="velocity" languagecode="1033" />
+                        </labels>
+                        <control id="ur_velocity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ur_velocity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f04dc865-43f8-40c4-88a0-a07547686c77}" locklevel="0" colspan="1" rowspan="1" labelid="{bac83d10-b8ab-4a7d-8427-961efd27670c}">
+                        <labels>
+                          <label description="flash" languagecode="1033" />
+                        </labels>
+                        <control id="ur_flash" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ur_flash" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4f8533b1-fca5-429b-8577-91be8bfb73b6}" locklevel="0" colspan="1" rowspan="1" labelid="{4f21ced1-5934-4b19-8fa9-279f1f4c2426}">
+                        <labels>
+                          <label description="direction" languagecode="1033" />
+                        </labels>
+                        <control id="ur_direction" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_direction" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3a7cebf-a6f1-4423-b5ef-6fb2af8c9a53}" locklevel="0" colspan="1" rowspan="1" labelid="{c21c030a-492c-47e3-9b23-2a960ad217f3}">
+                        <labels>
+                          <label description="loop" languagecode="1033" />
+                        </labels>
+                        <control id="ur_loop" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ur_loop" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{485c9177-c7a3-46e5-814f-53391468278b}" locklevel="0" colspan="1" rowspan="1" labelid="{d94a4085-c88b-4439-9470-696ef9c415dd}">
+                        <labels>
+                          <label description="flashwholedisplay" languagecode="1033" />
+                        </labels>
+                        <control id="ur_flashwholedisplay" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ur_flashwholedisplay" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="ControlData Formular" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
