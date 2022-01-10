@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d6facd93-0656-ec11-8f8f-000d3a831ab1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{b8cd546a-ff42-49e3-83b9-388d6c2a9f9c}" IsUserDefined="1" labelid="{1a519c86-82a2-403c-b5d8-cfe41709de4e}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{49d7085e-5902-405b-bd71-4b81dc2ed427}" labelid="{a02c59f9-1c4d-40c9-9af7-01814bed2278}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e124edb1-07d1-47f5-bdcc-03158f125d6a}" locklevel="0" colspan="1" rowspan="1" labelid="{2a692529-1eb0-470f-a9da-2a430db8c7f6}">
+                        <labels>
+                          <label description="color" languagecode="1033" />
+                        </labels>
+                        <control id="ur_color" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_color" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1217a82-32de-491e-bff9-f20c7178fdb2}" locklevel="0" colspan="1" rowspan="1" labelid="{b160c1d3-691f-4b5f-99c3-05ada1e369a7}">
+                        <labels>
+                          <label description="velocity" languagecode="1033" />
+                        </labels>
+                        <control id="ur_velocity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ur_velocity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca8a8ba7-0f4f-4101-a92d-4c6a17d79e1a}" locklevel="0" colspan="1" rowspan="1" labelid="{5532bc64-7d47-40a9-9170-78c8b8fc203c}">
+                        <labels>
+                          <label description="flash" languagecode="1033" />
+                        </labels>
+                        <control id="ur_flash" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ur_flash" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22131e07-8198-4549-838e-480b08421e47}" locklevel="0" colspan="1" rowspan="1" labelid="{412cdb5c-ccd0-49c8-9fa4-8d5fc8e708c0}">
+                        <labels>
+                          <label description="direction" languagecode="1033" />
+                        </labels>
+                        <control id="ur_direction" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_direction" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f1516e1-2813-41cc-bcd6-552860583492}" locklevel="0" colspan="1" rowspan="1" labelid="{7f4d936a-7411-4dcb-bda9-0eee603a317c}">
+                        <labels>
+                          <label description="loop" languagecode="1033" />
+                        </labels>
+                        <control id="ur_loop" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ur_loop" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44c384f0-b756-45ec-9bef-c233eb98da5a}" locklevel="0" colspan="1" rowspan="1" labelid="{61df5afe-6f63-4462-a550-6e0d5f30a366}">
+                        <labels>
+                          <label description="flashwholedisplay" languagecode="1033" />
+                        </labels>
+                        <control id="ur_flashwholedisplay" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ur_flashwholedisplay" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1cbc0bf0-4508-4b18-aeb9-a4e551fb930d}" labelid="{30271ba7-8dca-4718-9696-c223856e1011}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d36be30-fbff-4edb-b45b-f355acd311b5}" labelid="{b5783c83-8492-4ba8-999a-66bb905e8683}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a66af52a-935a-416c-bb4f-20c4033c9e62}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="DirectionLR" languagecode="1033" />
+                        </labels>
+                        <control id="ur_directionlr" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ur_directionlr" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3dd5b0f-845b-425e-bee3-edf0cc4cbb3c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Colorchoise" languagecode="1033" />
+                        </labels>
+                        <control id="ur_colorchoise" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ur_colorchoise" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions FallbackForm="true" Order="1">
+        <Everyone />
+      </DisplayConditions>
+      <header id="{f2ffde38-1a50-4649-8a67-92d9dbb6b8ae}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{91fa5e8f-4ed0-45f8-9e63-6980d23bf737}" showlabel="false" labelid="{eae82c83-4a1b-4810-a393-2931e57a5973}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{63a0b2ae-49d0-4596-8585-ca6eccf84832}" showlabel="false" labelid="{2e02d1ee-c14f-4a82-b4c1-3918536678e4}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{56cf9b6a-f776-4d9b-9bec-af819484d67d}" showlabel="false" labelid="{1a274714-5af5-4a58-8493-9ebb14738101}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{98ac6923-735d-42f6-98db-2a79bedabd79}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1da71411-15ac-4474-a700-e16f1ad7df51}" showlabel="false" labelid="{2efff3c1-4611-4038-a972-355f9d5c55f5}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d15d9278-ab32-4eec-8a5f-83938149fad3}" showlabel="false" labelid="{c6576c93-bda6-47f4-ab59-874a346c2060}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e312dc76-3818-46e8-b5bf-fd4130d5ecfc}" showlabel="false" labelid="{552d86c6-850a-4348-937e-48f5fde6c5a5}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="ControlData Hauptformular" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
